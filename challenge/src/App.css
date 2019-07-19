@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+
+.App-header {
+  background-color: #B3D5FE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h2 {
+  font-size: 8vh;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 5vh;
+}
+
+.banner {
+  width : 100%;
+}
+
+.slogan {
+  font-size: 6vh;
+  font-weight: bold;
+  color: #962275;
+}
+
+.weDo{
+  background-color: #B3D5FE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-footer {
+  background-color: #B3D5FE;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.email{
+  width: 35vh;
+  height: 3vh;
+}
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
+	background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
+	background-color:#637aad;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));
+	background:-moz-linear-gradient(top, #5972a7 5%, #637aad 100%);
+  background:-webkit-
+  linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:-o-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:-ms-linear-gradient(top, #5972a7 5%, #637aad 100%);
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5972a7', endColorstr='#637aad',GradientType=0);
+	background-color:#5972a7;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #962275;
+  font-size: 2vh;
+}
+
+@media screen and (min-width: 800px) {
+  .banner {
+    width : 80vh;
+  }
+}
